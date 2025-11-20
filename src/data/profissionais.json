@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+    "cargo": "Designer de Experiências Imersivas",
+    "resumo": "Especialista em criar experiências digitais multidimensionais usando AR/VR e design de interação.",
+    "localizacao": "São Paulo, SP",
+    "area": "Design de Realidade Extendida",
+    "habilidadesTecnicas": ["Unity", "Unreal Engine", "Blender", "Figma", "WebXR", "Three.js"],
+    "softSkills": ["Criatividade", "Pensamento espacial", "Colaboração", "Resolução de problemas"],
+    "experiencias": [
+      "Lead XR Designer - Meta Reality Labs (2021-2024)",
+      "Senior UX Designer - Apple Vision Pro Team (2019-2021)"
+    ],
+    "formacao": "Mestrado em Design de Interação - IED São Paulo",
+    "projetos": [
+      { "nome": "VisionOS Apps", "link": "https://example.com" },
+      { "nome": "Metaverse Experiences", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Unity Certified Developer", "Meta AR Developer"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Computação Espacial", "Interfaces Neurais", "Design Inclusivo"]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Mendes",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos",
+    "cargo": "Arquiteto de IA Generativa",
+    "resumo": "Especializado em desenvolver sistemas de IA generativa para criação de conteúdo multimodal.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Inteligência Artificial",
+    "habilidadesTecnicas": ["Python", "PyTorch", "Transformers", "Stable Diffusion", "LangChain", "Vector DBs"],
+    "softSkills": ["Pensamento analítico", "Inovação", "Comunicação técnica", "Liderança"],
+    "experiencias": [
+      "AI Research Lead - OpenAI Partner Lab (2022-2024)",
+      "ML Engineer - Google Brain (2020-2022)"
+    ],
+    "formacao": "PhD em Machine Learning - USP",
+    "projetos": [
+      { "nome": "GenAI Platform", "link": "https://example.com" },
+      { "nome": "Multimodal AI System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["TensorFlow Developer", "AWS ML Specialty"],
+    "idiomas": ["Português", "Inglês", "Mandarim"],
+    "areaInteresses": ["AGI", "Computação Quântica", "IA Ética"]
+  },
+  {
+    "id": 3,
+    "nome": "Mariana Costa",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mariana",
+    "cargo": "Estrategista de Economia Criativa Digital",
+    "resumo": "Conecta criadores com tecnologia blockchain e NFTs para monetização descentralizada.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Web3 & Economia Criativa",
+    "habilidadesTecnicas": ["Solidity", "Web3.js", "IPFS", "Smart Contracts", "DeFi Protocols", "DAOs"],
+    "softSkills": ["Visão estratégica", "Networking", "Negociação", "Empreendedorismo"],
+    "experiencias": [
+      "Head of Creator Economy - Polygon Studios (2022-2024)",
+      "Web3 Consultant - ConsenSys (2020-2022)"
+    ],
+    "formacao": "MBA em Negócios Digitais - FGV",
+    "projetos": [
+      { "nome": "NFT Marketplace", "link": "https://example.com" },
+      { "nome": "Creator DAO", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Certified Blockchain Developer", "Web3 Foundation"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Tokenização", "Metaverso", "DAOs"]
+  },
+  {
+    "id": 4,
+    "nome": "Rafael Santos",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rafael",
+    "cargo": "Engenheiro de Sistemas Autônomos",
+    "resumo": "Desenvolve software para veículos autônomos e drones com foco em segurança e eficiência.",
+    "localizacao": "Campinas, SP",
+    "area": "Mobilidade Autônoma",
+    "habilidadesTecnicas": ["ROS", "Computer Vision", "SLAM", "C++", "CUDA", "Sensor Fusion"],
+    "softSkills": ["Atenção aos detalhes", "Trabalho em equipe", "Resiliência", "Pensamento sistêmico"],
+    "experiencias": [
+      "Senior Autonomy Engineer - Tesla (2021-2024)",
+      "Robotics Engineer - Boston Dynamics (2019-2021)"
+    ],
+    "formacao": "Mestrado em Robótica - ITA",
+    "projetos": [
+      { "nome": "Self-Driving Stack", "link": "https://example.com" },
+      { "nome": "Drone Navigation System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["ROS Certified Developer", "NVIDIA Deep Learning"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Robótica", "IoT", "Edge Computing"]
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Oliveira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juliana",
+    "cargo": "Cientista de Dados Biomédicos",
+    "resumo": "Aplica machine learning para análise de dados genômicos e desenvolvimento de medicina personalizada.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Bioinformática",
+    "habilidadesTecnicas": ["R", "Python", "Bioconductor", "TensorFlow", "Genomics", "Clinical Trials"],
+    "softSkills": ["Pesquisa", "Comunicação científica", "Ética", "Curiosidade"],
+    "experiencias": [
+      "Data Scientist - Illumina (2022-2024)",
+      "Bioinformatics Researcher - Instituto Butantan (2019-2022)"
+    ],
+    "formacao": "PhD em Bioinformática - UNICAMP",
+    "projetos": [
+      { "nome": "Cancer Genomics Platform", "link": "https://example.com" },
+      { "nome": "Personalized Medicine AI", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Certified Bioinformatician", "AWS Healthcare"],
+    "idiomas": ["Português", "Inglês", "Italiano"],
+    "areaInteresses": ["Medicina Personalizada", "CRISPR", "Longevidade"]
+  },
+  {
+    "id": 6,
+    "nome": "Bruno Ferreira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bruno",
+    "cargo": "Arquiteto de Infraestrutura Cloud Native",
+    "resumo": "Especialista em construir sistemas distribuídos escaláveis usando Kubernetes e microsserviços.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "DevOps & Cloud",
+    "habilidadesTecnicas": ["Kubernetes", "Docker", "Terraform", "AWS", "GCP", "Service Mesh"],
+    "softSkills": ["Automação", "Problem solving", "Documentação", "Mentoria"],
+    "experiencias": [
+      "Principal SRE - Netflix (2021-2024)",
+      "Cloud Architect - Amazon Web Services (2018-2021)"
+    ],
+    "formacao": "Bacharelado em Ciência da Computação - UFRGS",
+    "projetos": [
+      { "nome": "Multi-Region K8s Platform", "link": "https://example.com" },
+      { "nome": "Zero-Downtime Migration", "link": "https://example.com" }
+    ],
+    "certificacoes": ["CKA", "CKAD", "AWS Solutions Architect"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["FinOps", "Platform Engineering", "Observability"]
+  },
+  {
+    "id": 7,
+    "nome": "Camila Rodrigues",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Camila",
+    "cargo": "Designer de Experiências Conversacionais",
+    "resumo": "Cria chatbots e assistentes virtuais com personalidade e empatia usando NLP.",
+    "localizacao": "Curitiba, PR",
+    "area": "Conversational AI",
+    "habilidadesTecnicas": ["DialogFlow", "Rasa", "GPT-4", "Voice UI", "NLP", "UX Writing"],
+    "softSkills": ["Empatia", "Storytelling", "Design thinking", "Escuta ativa"],
+    "experiencias": [
+      "Conversational Design Lead - Google Assistant (2022-2024)",
+      "Chatbot Designer - Microsoft (2020-2022)"
+    ],
+    "formacao": "Mestrado em Linguística Computacional - USP",
+    "projetos": [
+      { "nome": "Voice Assistant Platform", "link": "https://example.com" },
+      { "nome": "Multilingual Chatbot", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Google Conversational AI", "Voiceflow Expert"],
+    "idiomas": ["Português", "Inglês", "Japonês"],
+    "areaInteresses": ["Voice UX", "Multimodal Interfaces", "AI Personality"]
+  },
+  {
+    "id": 8,
+    "nome": "Diego Almeida",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Diego",
+    "cargo": "Especialista em Segurança Quântica",
+    "resumo": "Trabalha com criptografia pós-quântica para proteger sistemas contra computadores quânticos.",
+    "localizacao": "Brasília, DF",
+    "area": "Cibersegurança Quântica",
+    "habilidadesTecnicas": ["Qiskit", "Quantum Cryptography", "Lattice-based Crypto", "Python", "Rust", "Security"],
+    "softSkills": ["Pensamento crítico", "Análise de risco", "Aprendizado contínuo", "Precisão"],
+    "experiencias": [
+      "Quantum Security Researcher - IBM Quantum (2021-2024)",
+      "Cryptographer - NSA Consultant (2019-2021)"
+    ],
+    "formacao": "PhD em Criptografia - ITA",
+    "projetos": [
+      { "nome": "Post-Quantum PKI", "link": "https://example.com" },
+      { "nome": "Quantum Key Distribution", "link": "https://example.com" }
+    ],
+    "certificacoes": ["CISSP", "Quantum Computing Certified"],
+    "idiomas": ["Português", "Inglês", "Russo"],
+    "areaInteresses": ["Computação Quântica", "Zero-Knowledge Proofs", "Blockchain"]
+  },
+  {
+    "id": 9,
+    "nome": "Fernanda Lima",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fernanda",
+    "cargo": "Coordenadora de ESG Tech",
+    "resumo": "Implementa soluções tecnológicas para medir e otimizar impacto socioambiental de empresas.",
+    "localizacao": "São Paulo, SP",
+    "area": "Sustentabilidade Digital",
+    "habilidadesTecnicas": ["Carbon Accounting", "ESG Metrics", "IoT Sensors", "Data Analytics", "GHG Protocol", "Sustainability Reporting"],
+    "softSkills": ["Visão sistêmica", "Sustentabilidade", "Stakeholder management", "Advocacy"],
+    "experiencias": [
+      "ESG Tech Lead - Microsoft Sustainability (2022-2024)",
+      "Sustainability Consultant - McKinsey (2020-2022)"
+    ],
+    "formacao": "MBA em Sustentabilidade - FGV",
+    "projetos": [
+      { "nome": "Carbon Tracking Platform", "link": "https://example.com" },
+      { "nome": "ESG Dashboard", "link": "https://example.com" }
+    ],
+    "certificacoes": ["GRI Certified", "LEED Green Associate"],
+    "idiomas": ["Português", "Inglês", "Holandês"],
+    "areaInteresses": ["Economia Circular", "Net Zero", "Impact Tech"]
+  },
+  {
+    "id": 10,
+    "nome": "Gabriel Souza",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gabriel",
+    "cargo": "Desenvolvedor de Jogos Metaverso",
+    "resumo": "Cria experiências de jogos multiplayer persistentes em mundos virtuais compartilhados.",
+    "localizacao": "Recife, PE",
+    "area": "Game Development",
+    "habilidadesTecnicas": ["Unity", "Unreal Engine", "C#", "Multiplayer Networking", "Game Economics", "NFT Integration"],
+    "softSkills": ["Criatividade", "Game design", "Colaboração", "Iteração rápida"],
+    "experiencias": [
+      "Lead Game Developer - The Sandbox (2022-2024)",
+      "Gameplay Programmer - Epic Games (2020-2022)"
+    ],
+    "formacao": "Bacharelado em Jogos Digitais - PUC-SP",
+    "projetos": [
+      { "nome": "Metaverse RPG", "link": "https://example.com" },
+      { "nome": "Play-to-Earn Game", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Unity Certified Expert", "Unreal Engine Certified"],
+    "idiomas": ["Português", "Inglês", "Coreano"],
+    "areaInteresses": ["Web3 Gaming", "Virtual Worlds", "User Generated Content"]
+  },
+  {
+    "id": 11,
+    "nome": "Helena Barros",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Helena",
+    "cargo": "Neurocientista Computacional",
+    "resumo": "Desenvolve interfaces cérebro-computador para controle de dispositivos por pensamento.",
+    "localizacao": "São Paulo, SP",
+    "area": "Neurociência & BCI",
+    "habilidadesTecnicas": ["EEG Processing", "Neural Networks", "Signal Processing", "MATLAB", "Python", "Neurotech"],
+    "softSkills": ["Pesquisa científica", "Paciência", "Ética médica", "Inovação"],
+    "experiencias": [
+      "BCI Researcher - Neuralink (2022-2024)",
+      "Neuroscientist - MIT Media Lab (2019-2022)"
+    ],
+    "formacao": "PhD em Neurociência - UNIFESP",
+    "projetos": [
+      { "nome": "Mind-Controlled Prosthetics", "link": "https://example.com" },
+      { "nome": "Neural Decoder System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Neurotechnology Certificate", "Clinical Trials Certified"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["BCIs", "Neuroprosthetics", "Cognitive Enhancement"]
+  },
+  {
+    "id": 12,
+    "nome": "Igor Martins",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Igor",
+    "cargo": "Especialista em Edge AI",
+    "resumo": "Otimiza modelos de IA para rodar em dispositivos edge com recursos limitados.",
+    "localizacao": "Joinville, SC",
+    "area": "Edge Computing",
+    "habilidadesTecnicas": ["TensorFlow Lite", "Model Quantization", "ONNX", "ARM", "Embedded Systems", "IoT"],
+    "softSkills": ["Otimização", "Problem solving", "Persistência", "Pragmatismo"],
+    "experiencias": [
+      "Edge AI Engineer - NVIDIA (2021-2024)",
+      "Embedded ML - Qualcomm (2019-2021)"
+    ],
+    "formacao": "Mestrado em Sistemas Embarcados - UFSC",
+    "projetos": [
+      { "nome": "On-Device AI Platform", "link": "https://example.com" },
+      { "nome": "Smart Camera System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["TensorFlow Developer", "Edge Impulse Expert"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["TinyML", "IoT", "5G"]
+  },
+  {
+    "id": 13,
+    "nome": "Larissa Freitas",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Larissa",
+    "cargo": "Arquiteta de Soluções FinTech",
+    "resumo": "Projeta sistemas financeiros distribuídos com foco em pagamentos instantâneos e DeFi.",
+    "localizacao": "São Paulo, SP",
+    "area": "FinTech & Payments",
+    "habilidadesTecnicas": ["Microservices", "Payment APIs", "Blockchain", "PCI DSS", "Banking Systems", "Risk Management"],
+    "softSkills": ["Regulação financeira", "Negociação", "Liderança técnica", "Visão de negócio"],
+    "experiencias": [
+      "Solutions Architect - Nubank (2021-2024)",
+      "Platform Engineer - Stripe (2019-2021)"
+    ],
+    "formacao": "MBA Executivo em Finanças - Insper",
+    "projetos": [
+      { "nome": "PIX Integration Platform", "link": "https://example.com" },
+      { "nome": "DeFi Lending Protocol", "link": "https://example.com" }
+    ],
+    "certificacoes": ["AWS Solutions Architect", "PCI DSS Certified"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Open Banking", "CBDC", "Financial Inclusion"]
+  },
+  {
+    "id": 14,
+    "nome": "Marcos Pereira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcos",
+    "cargo": "Designer de Interfaces Hápticas",
+    "resumo": "Cria experiências táteis para dispositivos vestíveis e interfaces físico-digitais.",
+    "localizacao": "Campinas, SP",
+    "area": "Haptic Design",
+    "habilidadesTecnicas": ["Haptic Engineering", "Unity", "Arduino", "Vibration Design", "Prototyping", "UX"],
+    "softSkills": ["Sensibilidade sensorial", "Criatividade", "Prototipagem", "Testes de usuário"],
+    "experiencias": [
+      "Haptic Designer - Apple Watch Team (2022-2024)",
+      "Tactile UX - PlayStation VR (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design de Interação - IED",
+    "projetos": [
+      { "nome": "VR Haptic Gloves", "link": "https://example.com" },
+      { "nome": "Tactile Feedback System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Haptics Professional", "UX Certified"],
+    "idiomas": ["Português", "Inglês", "Japonês"],
+    "areaInteresses": ["Wearables", "Sensory Design", "Accessibility"]
+  },
+  {
+    "id": 15,
+    "nome": "Natália Cardoso",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Natalia",
+    "cargo": "Engenheira de Privacidade Digital",
+    "resumo": "Implementa soluções de privacy-by-design e conformidade com LGPD/GDPR.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Privacy Engineering",
+    "habilidadesTecnicas": ["Privacy Engineering", "LGPD", "GDPR", "Data Governance", "Encryption", "Audit"],
+    "softSkills": ["Compliance", "Atenção aos detalhes", "Comunicação legal", "Ética"],
+    "experiencias": [
+      "Privacy Engineer - Meta (2022-2024)",
+      "Data Protection Officer - Magazine Luiza (2020-2022)"
+    ],
+    "formacao": "Mestrado em Direito Digital - FGV",
+    "projetos": [
+      { "nome": "Privacy Management Platform", "link": "https://example.com" },
+      { "nome": "Data Governance Framework", "link": "https://example.com" }
+    ],
+    "certificacoes": ["CIPM", "CIPT", "DPO Certified"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Privacy Tech", "Zero Knowledge", "Digital Rights"]
+  },
+  {
+    "id": 16,
+    "nome": "Otávio Nunes",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Otavio",
+    "cargo": "Cientista de Materiais Digitais",
+    "resumo": "Usa IA para simular e descobrir novos materiais para baterias e energia renovável.",
+    "localizacao": "Campinas, SP",
+    "area": "Materials Science",
+    "habilidadesTecnicas": ["Computational Chemistry", "ML for Materials", "VASP", "Python", "Quantum Chemistry", "Simulations"],
+    "softSkills": ["Pesquisa", "Pensamento científico", "Colaboração interdisciplinar", "Persistência"],
+    "experiencias": [
+      "Materials Scientist - Tesla Energy (2021-2024)",
+      "Computational Chemist - BASF (2019-2021)"
+    ],
+    "formacao": "PhD em Química Computacional - UNICAMP",
+    "projetos": [
+      { "nome": "Battery Material Discovery", "link": "https://example.com" },
+      { "nome": "Solar Cell Optimization", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Materials Project Certified", "Quantum Chemistry Expert"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Green Chemistry", "Energy Storage", "Sustainable Materials"]
+  },
+  {
+    "id": 17,
+    "nome": "Paula Castro",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paula",
+    "cargo": "Especialista em Agricultura de Precisão",
+    "resumo": "Desenvolve sistemas de IoT e drones para monitoramento e otimização de cultivos.",
+    "localizacao": "Piracicaba, SP",
+    "area": "AgTech",
+    "habilidadesTecnicas": ["IoT Sensors", "Drone Mapping", "Computer Vision", "GIS", "Precision Agriculture", "Data Analytics"],
+    "softSkills": ["Sustentabilidade", "Análise de dados", "Trabalho em campo", "Inovação"],
+    "experiencias": [
+      "AgTech Lead - John Deere (2022-2024)",
+      "Precision Agriculture Engineer - Bayer CropScience (2020-2022)"
+    ],
+    "formacao": "Mestrado em Engenharia Agrícola - ESALQ/USP",
+    "projetos": [
+      { "nome": "Smart Irrigation System", "link": "https://example.com" },
+      { "nome": "Crop Health Monitor", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Certified Crop Advisor", "Drone Pilot License"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Climate-Smart Agriculture", "Vertical Farming", "Food Security"]
+  },
+  {
+    "id": 18,
+    "nome": "Ricardo Dias",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ricardo",
+    "cargo": "Arquiteto de Jogos Educacionais",
+    "resumo": "Cria experiências gamificadas para aprendizado adaptativo e desenvolvimento de habilidades.",
+    "localizacao": "São Paulo, SP",
+    "area": "EdTech & Gamification",
+    "habilidadesTecnicas": ["Unity", "Learning Analytics", "Game Design", "Adaptive Learning", "JavaScript", "LMS Integration"],
+    "softSkills": ["Pedagogia", "Design de jogos", "Empatia", "Criatividade"],
+    "experiencias": [
+      "Learning Game Designer - Duolingo (2022-2024)",
+      "EdTech Product - Khan Academy (2020-2022)"
+    ],
+    "formacao": "Mestrado em Tecnologias Educacionais - PUC-SP",
+    "projetos": [
+      { "nome": "Adaptive Math Game", "link": "https://example.com" },
+      { "nome": "STEM Learning Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Certified Learning Experience Designer", "Gamification Expert"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Personalized Learning", "Social-Emotional Learning", "AI Tutors"]
+  },
+  {
+    "id": 19,
+    "nome": "Sofia Ribeiro",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sofia",
+    "cargo": "Engenheira de Sistemas de Energia Renovável",
+    "resumo": "Otimiza redes inteligentes e sistemas de armazenamento para energia solar e eólica.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Clean Energy",
+    "habilidadesTecnicas": ["Smart Grid", "Energy Storage", "Power Systems", "IoT", "SCADA", "Renewable Energy"],
+    "softSkills": ["Sustentabilidade", "Análise de sistemas", "Project management", "Inovação"],
+    "experiencias": [
+      "Renewable Energy Engineer - Tesla Energy (2021-2024)",
+      "Power Systems Engineer - Enertech (2019-2021)"
+    ],
+    "formacao": "Mestrado em Energia Renovável - UFSC",
+    "projetos": [
+      { "nome": "Microgrid Control System", "link": "https://example.com" },
+      { "nome": "Battery Storage Optimizer", "link": "https://example.com" }
+    ],
+    "certificacoes": ["NABCEP Certified", "Energy Manager"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Grid Modernization", "Hydrogen Energy", "Electric Vehicles"]
+  },
+  {
+    "id": 20,
+    "nome": "Thiago Morais",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Thiago",
+    "cargo": "Designer de Produtos Sustentáveis",
+    "resumo": "Aplica princípios de economia circular no design de produtos físicos e digitais.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Sustainable Design",
+    "habilidadesTecnicas": ["CAD", "Life Cycle Assessment", "Material Selection", "Circular Economy", "Prototyping", "3D Printing"],
+    "softSkills": ["Design thinking", "Sustentabilidade", "Inovação", "Visão holística"],
+    "experiencias": [
+      "Sustainability Designer - IKEA (2022-2024)",
+      "Product Designer - Patagonia (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design Sustentável - UFRGS",
+    "projetos": [
+      { "nome": "Circular Product System", "link": "https://example.com" },
+      { "nome": "Zero-Waste Packaging", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Cradle to Cradle Certified", "LEED AP"],
+    "idiomas": ["Português", "Inglês", "Sueco"],
+    "areaInteresses": ["Biomaterials", "Regenerative Design", "Product Service Systems"]
+  },
+  {
+    "id": 21,
+    "nome": "Vanessa Lopes",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vanessa",
+    "cargo": "Especialista em Telemedicina",
+    "resumo": "Desenvolve plataformas de saúde digital para consultas remotas e monitoramento de pacientes.",
+    "localizacao": "São Paulo, SP",
+    "area": "HealthTech",
+    "habilidadesTecnicas": ["Telehealth Platforms", "HIPAA Compliance", "Medical Devices", "Health APIs", "IoT Sensors", "Data Analytics"],
+    "softSkills": ["Empatia", "Regulação médica", "Comunicação", "Ética médica"],
+    "experiencias": [
+      "Telemedicine Product Lead - Teladoc Health (2022-2024)",
+      "Health IT - Partners HealthCare (2020-2022)"
+    ],
+    "formacao": "Mestrado em Informática em Saúde - UNIFESP",
+    "projetos": [
+      { "nome": "Remote Patient Monitoring", "link": "https://example.com" },
+      { "nome": "Telehealth Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["HIMSS Certified", "Telehealth Certified"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Digital Health", "Wearable Health Tech", "AI Diagnostics"]
+  },
+  {
+    "id": 22,
+    "nome": "William Silva",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=William",
+    "cargo": "Engenheiro de Drones Autônomos",
+    "resumo": "Desenvolve sistemas de navegação e missão para drones de entrega e inspeção.",
+    "localizacao": "São José dos Campos, SP",
+    "area": "Drone Technology",
+    "habilidadesTecnicas": ["ROS", "Flight Control", "Computer Vision", "Path Planning", "C++", "Sensor Fusion"],
+    "softSkills": ["Problem solving", "Segurança", "Testes rigorosos", "Inovação"],
+    "experiencias": [
+      "Drone Engineer - Wing (Google) (2021-2024)",
+      "UAV Systems - Embraer X (2019-2021)"
+    ],
+    "formacao": "Mestrado em Engenharia Aeroespacial - ITA",
+    "projetos": [
+      { "nome": "Autonomous Delivery Drone", "link": "https://example.com" },
+      { "nome": "Inspection Drone System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["FAA Part 107", "Drone Pilot Certified"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["Urban Air Mobility", "Swarm Robotics", "VTOL"]
+  },
+  {
+    "id": 23,
+    "nome": "Yasmin Azevedo",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yasmin",
+    "cargo": "Especialista em Marketing de Influência Digital",
+    "resumo": "Conecta marcas com criadores usando dados e IA para campanhas autênticas.",
+    "localizacao": "São Paulo, SP",
+    "area": "Influencer Marketing",
+    "habilidadesTecnicas": ["Social Media Analytics", "Creator Economy", "Campaign Management", "AI Tools", "Data Analysis", "CRM"],
+    "softSkills": ["Networking", "Negociação", "Criatividade", "Storytelling"],
+    "experiencias": [
+      "Influencer Marketing Lead - TikTok Brasil (2022-2024)",
+      "Creator Partnerships - YouTube (2020-2022)"
+    ],
+    "formacao": "MBA em Marketing Digital - ESPM",
+    "projetos": [
+      { "nome": "Creator Matching Platform", "link": "https://example.com" },
+      { "nome": "Campaign ROI Analytics", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Meta Blueprint Certified", "Google Analytics"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Creator Economy", "Social Commerce", "UGC"]
+  },
+  {
+    "id": 24,
+    "nome": "André Costa",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Andre",
+    "cargo": "Arquiteto de Soluções IoT Industrial",
+    "resumo": "Implementa sistemas IIoT para automação e manutenção preditiva em fábricas.",
+    "localizacao": "São Paulo, SP",
+    "area": "Industry 4.0",
+    "habilidadesTecnicas": ["IIoT", "PLC Programming", "SCADA", "OPC UA", "Edge Computing", "Predictive Maintenance"],
+    "softSkills": ["Engenharia de processos", "Problem solving", "Project management", "Visão sistêmica"],
+    "experiencias": [
+      "IIoT Solutions Architect - Siemens (2021-2024)",
+      "Automation Engineer - Bosch (2019-2021)"
+    ],
+    "formacao": "Mestrado em Automação Industrial - USP",
+    "projetos": [
+      { "nome": "Smart Factory Platform", "link": "https://example.com" },
+      { "nome": "Predictive Maintenance System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["ISA Certified", "AWS IoT Specialty"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Digital Twin", "5G Manufacturing", "Cobots"]
+  },
+  {
+    "id": 25,
+    "nome": "Beatriz Fonseca",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Beatriz",
+    "cargo": "Cientista de Dados de Clima",
+    "resumo": "Modela mudanças climáticas e desenvolve sistemas de previsão extrema.",
+    "localizacao": "Brasília, DF",
+    "area": "Climate Science",
+    "habilidadesTecnicas": ["Climate Modeling", "Python", "R", "GIS", "Machine Learning", "Remote Sensing"],
+    "softSkills": ["Pesquisa científica", "Comunicação", "Pensamento crítico", "Advocacy"],
+    "experiencias": [
+      "Climate Data Scientist - NOAA (2022-2024)",
+      "Environmental Researcher - INPE (2020-2022)"
+    ],
+    "formacao": "PhD em Ciências Atmosféricas - USP",
+    "projetos": [
+      { "nome": "Climate Prediction Model", "link": "https://example.com" },
+      { "nome": "Extreme Weather Forecasting", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Climate Data Certified", "Remote Sensing Expert"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Climate Change", "Carbon Capture", "Adaptation Tech"]
+  },
+  {
+    "id": 26,
+    "nome": "Caio Mendes",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Caio",
+    "cargo": "Designer de Som Espacial",
+    "resumo": "Cria experiências de áudio 3D para realidade virtual e sistemas de som imersivo.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Spatial Audio",
+    "habilidadesTecnicas": ["Spatial Audio", "Dolby Atmos", "Ambisonics", "Unity Audio", "FMOD", "Sound Design"],
+    "softSkills": ["Criatividade", "Percepção auditiva", "Colaboração", "Atenção aos detalhes"],
+    "experiencias": [
+      "Spatial Audio Designer - Apple Spatial Audio (2022-2024)",
+      "Audio Engineer - Sony PlayStation (2020-2022)"
+    ],
+    "formacao": "Mestrado em Audio Engineering - Berklee",
+    "projetos": [
+      { "nome": "VR Audio Experience", "link": "https://example.com" },
+      { "nome": "3D Concert Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Dolby Atmos Certified", "Pro Tools Expert"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Immersive Audio", "VR Sound", "Acoustic Design"]
+  },
+  {
+    "id": 27,
+    "nome": "Daniela Santos",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniela",
+    "cargo": "Engenheira de Blockchain Empresarial",
+    "resumo": "Implementa soluções de blockchain privada para supply chain e rastreabilidade.",
+    "localizacao": "São Paulo, SP",
+    "area": "Enterprise Blockchain",
+    "habilidadesTecnicas": ["Hyperledger Fabric", "Solidity", "Smart Contracts", "Supply Chain", "DLT", "Consensus Algorithms"],
+    "softSkills": ["Arquitetura de sistemas", "Compliance", "Comunicação", "Inovação"],
+    "experiencias": [
+      "Blockchain Engineer - IBM Blockchain (2021-2024)",
+      "DLT Consultant - PwC (2019-2021)"
+    ],
+    "formacao": "Mestrado em Sistemas Distribuídos - UNICAMP",
+    "projetos": [
+      { "nome": "Supply Chain Traceability", "link": "https://example.com" },
+      { "nome": "Enterprise DLT Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Hyperledger Certified", "Blockchain Developer"],
+    "idiomas": ["Português", "Inglês", "Mandarim"],
+    "areaInteresses": ["Supply Chain", "Digital Identity", "Tokenization"]
+  },
+  {
+    "id": 28,
+    "nome": "Eduardo Rocha",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Eduardo",
+    "cargo": "Especialista em Realidade Aumentada Móvel",
+    "resumo": "Desenvolve aplicações AR para varejo e visualização de produtos.",
+    "localizacao": "Curitiba, PR",
+    "area": "Mobile AR",
+    "habilidadesTecnicas": ["ARKit", "ARCore", "Unity", "3D Modeling", "Swift", "Kotlin"],
+    "softSkills": ["Criatividade", "UX design", "Problem solving", "Colaboração"],
+    "experiencias": [
+      "AR Developer Lead - IKEA Place (2022-2024)",
+      "Mobile AR Engineer - Snap Inc (2020-2022)"
+    ],
+    "formacao": "Bacharelado em Ciência da Computação - UFPR",
+    "projetos": [
+      { "nome": "AR Shopping App", "link": "https://example.com" },
+      { "nome": "Virtual Try-On System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Unity AR Developer", "Apple AR Certified"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["WebAR", "AR Commerce", "Social AR"]
+  },
+  {
+    "id": 29,
+    "nome": "Flávia Carvalho",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Flavia",
+    "cargo": "Analista de Dados de Comportamento",
+    "resumo": "Usa análise comportamental e neurociência para otimizar UX e conversão.",
+    "localizacao": "São Paulo, SP",
+    "area": "Behavioral Analytics",
+    "habilidadesTecnicas": ["Behavioral Science", "A/B Testing", "Analytics", "Heatmaps", "User Research", "Statistical Analysis"],
+    "softSkills": ["Psicologia", "Análise", "Comunicação", "Empatia"],
+    "experiencias": [
+      "Behavioral Analyst - Booking.com (2022-2024)",
+      "UX Researcher - Netflix (2020-2022)"
+    ],
+    "formacao": "Mestrado em Psicologia Cognitiva - USP",
+    "projetos": [
+      { "nome": "Conversion Optimization System", "link": "https://example.com" },
+      { "nome": "User Behavior Analysis", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Google Analytics", "CRO Certified"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Neuromarketing", "Decision Science", "Persuasive Design"]
+  },
+  {
+    "id": 30,
+    "nome": "Gustavo Lima",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gustavo",
+    "cargo": "Engenheiro de Computação Neuromórfica",
+    "resumo": "Desenvolve chips inspirados no cérebro para IA eficiente e edge computing.",
+    "localizacao": "Campinas, SP",
+    "area": "Neuromorphic Computing",
+    "habilidadesTecnicas": ["Neuromorphic Hardware", "Spiking Neural Networks", "VLSI", "Hardware Design", "Brain-inspired Computing", "Low-power AI"],
+    "softSkills": ["Pesquisa", "Inovação", "Pensamento interdisciplinar", "Persistência"],
+    "experiencias": [
+      "Neuromorphic Engineer - Intel Labs (2021-2024)",
+      "Chip Designer - IBM Research (2019-2021)"
+    ],
+    "formacao": "PhD em Engenharia Elétrica - UNICAMP",
+    "projetos": [
+      { "nome": "Neuromorphic Chip Design", "link": "https://example.com" },
+      { "nome": "Energy-Efficient AI Hardware", "link": "https://example.com" }
+    ],
+    "certificacoes": ["VLSI Design Certified", "Neuromorphic Engineering"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Brain-Computer Interfaces", "Quantum Computing", "AI Hardware"]
+  },
+  {
+    "id": 31,
+    "nome": "Isabela Prado",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Isabela",
+    "cargo": "Especialista em Cidades Inteligentes",
+    "resumo": "Desenvolve soluções IoT para gestão urbana, mobilidade e sustentabilidade.",
+    "localizacao": "São Paulo, SP",
+    "area": "Smart Cities",
+    "habilidadesTecnicas": ["IoT", "Urban Planning", "GIS", "Smart Sensors", "Data Analytics", "Public Policy Tech"],
+    "softSkills": ["Visão sistêmica", "Gestão pública", "Sustentabilidade", "Inovação"],
+    "experiencias": [
+      "Smart City Consultant - Cisco (2022-2024)",
+      "Urban Tech - Barcelona Digital City (2020-2022)"
+    ],
+    "formacao": "Mestrado em Planejamento Urbano - USP",
+    "projetos": [
+      { "nome": "Smart Parking System", "link": "https://example.com" },
+      { "nome": "Urban IoT Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Smart Cities Certified", "Urban Planning"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Mobility as a Service", "15-Minute Cities", "Urban Sustainability"]
+  },
+  {
+    "id": 32,
+    "nome": "João Teixeira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Joao",
+    "cargo": "Designer de Sistemas de Design",
+    "resumo": "Cria e mantém sistemas de design escaláveis para produtos digitais.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Design Systems",
+    "habilidadesTecnicas": ["Figma", "Design Tokens", "Component Libraries", "Storybook", "React", "Accessibility"],
+    "softSkills": ["Organização", "Documentação", "Colaboração", "Pensamento sistemático"],
+    "experiencias": [
+      "Design Systems Lead - Shopify (2022-2024)",
+      "Product Designer - Airbnb (2020-2022)"
+    ],
+    "formacao": "Bacharelado em Design - UFRGS",
+    "projetos": [
+      { "nome": "Enterprise Design System", "link": "https://example.com" },
+      { "nome": "Component Library", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Figma Expert", "Accessibility Certified"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["Design Ops", "Design Engineering", "Inclusive Design"]
+  },
+  {
+    "id": 33,
+    "nome": "Karina Barbosa",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Karina",
+    "cargo": "Engenheira de Software Quântico",
+    "resumo": "Desenvolve algoritmos quânticos para otimização e simulação molecular.",
+    "localizacao": "São Paulo, SP",
+    "area": "Quantum Computing",
+    "habilidadesTecnicas": ["Qiskit", "Cirq", "Quantum Algorithms", "Linear Algebra", "Python", "Quantum Simulation"],
+    "softSkills": ["Pensamento abstrato", "Pesquisa", "Colaboração", "Aprendizado contínuo"],
+    "experiencias": [
+      "Quantum Software Engineer - IBM Quantum (2021-2024)",
+      "Quantum Researcher - Microsoft Quantum (2019-2021)"
+    ],
+    "formacao": "PhD em Física Quântica - USP",
+    "projetos": [
+      { "nome": "Quantum Optimization Algorithms", "link": "https://example.com" },
+      { "nome": "Molecular Simulation Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["IBM Quantum Developer", "Quantum Computing Certified"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Quantum Machine Learning", "Quantum Cryptography", "Quantum Sensing"]
+  },
+  {
+    "id": 34,
+    "nome": "Leonardo Gomes",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Leonardo",
+    "cargo": "Especialista em Manufatura Aditiva",
+    "resumo": "Desenvolve soluções de impressão 3D industrial para produção customizada.",
+    "localizacao": "Joinville, SC",
+    "area": "Additive Manufacturing",
+    "habilidadesTecnicas": ["3D Printing", "CAD", "Materials Engineering", "Generative Design", "Quality Control", "Process Optimization"],
+    "softSkills": ["Inovação", "Problem solving", "Atenção aos detalhes", "Otimização"],
+    "experiencias": [
+      "Additive Manufacturing Engineer - GE Additive (2021-2024)",
+      "3D Printing Specialist - HP 3D (2019-2021)"
+    ],
+    "formacao": "Mestrado em Engenharia de Materiais - UFSC",
+    "projetos": [
+      { "nome": "Industrial 3D Printing System", "link": "https://example.com" },
+      { "nome": "Custom Part Production", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Additive Manufacturing Certified", "Metal 3D Printing"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Metal Printing", "Bioprinting", "Space Manufacturing"]
+  },
+  {
+    "id": 35,
+    "nome": "Mônica Araújo",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Monica",
+    "cargo": "Analista de Segurança de IA",
+    "resumo": "Testa e protege sistemas de IA contra ataques adversariais e bias.",
+    "localizacao": "Brasília, DF",
+    "area": "AI Security",
+    "habilidadesTecnicas": ["Adversarial ML", "AI Safety", "Security Testing", "Bias Detection", "Model Robustness", "Red Teaming"],
+    "softSkills": ["Pensamento crítico", "Ética", "Análise de risco", "Comunicação"],
+    "experiencias": [
+      "AI Security Researcher - OpenAI (2022-2024)",
+      "ML Security - Google DeepMind (2020-2022)"
+    ],
+    "formacao": "Mestrado em Segurança da Informação - UnB",
+    "projetos": [
+      { "nome": "AI Red Team Framework", "link": "https://example.com" },
+      { "nome": "Adversarial Defense System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["AI Safety Certified", "CISSP"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["AI Alignment", "Interpretability", "Responsible AI"]
+  },
+  {
+    "id": 36,
+    "nome": "Nicolas Ferreira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nicolas",
+    "cargo": "Engenheiro de Veículos Elétricos",
+    "resumo": "Desenvolve sistemas de baterias e powertrains para veículos elétricos.",
+    "localizacao": "São Paulo, SP",
+    "area": "Electric Vehicles",
+    "habilidadesTecnicas": ["Battery Management", "EV Powertrain", "Charging Systems", "Embedded Systems", "Thermal Management", "Vehicle Dynamics"],
+    "softSkills": ["Engenharia de sistemas", "Inovação", "Trabalho em equipe", "Sustentabilidade"],
+    "experiencias": [
+      "EV Engineer - Tesla (2021-2024)",
+      "Battery Systems - BYD (2019-2021)"
+    ],
+    "formacao": "Mestrado em Engenharia Automotiva - POLI-USP",
+    "projetos": [
+      { "nome": "Advanced BMS System", "link": "https://example.com" },
+      { "nome": "Fast Charging Infrastructure", "link": "https://example.com" }
+    ],
+    "certificacoes": ["EV Systems Certified", "Battery Engineering"],
+    "idiomas": ["Português", "Inglês", "Mandarim"],
+    "areaInteresses": ["Solid-State Batteries", "V2G Technology", "Autonomous EVs"]
+  },
+  {
+    "id": 37,
+    "nome": "Olivia Souza",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Olivia",
+    "cargo": "Designer de Interfaces de Voz",
+    "resumo": "Cria experiências conversacionais naturais para assistentes de voz.",
+    "localizacao": "São Paulo, SP",
+    "area": "Voice User Interface",
+    "habilidadesTecnicas": ["Voice UI Design", "Alexa Skills", "Google Actions", "Conversational Design", "Speech Recognition", "NLU"],
+    "softSkills": ["Empatia", "Comunicação", "Storytelling", "User research"],
+    "experiencias": [
+      "Voice UX Designer - Amazon Alexa (2022-2024)",
+      "Conversational Designer - Google Assistant (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design de Interação - PUC-RJ",
+    "projetos": [
+      { "nome": "Multimodal Voice Assistant", "link": "https://example.com" },
+      { "nome": "Voice Commerce Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Alexa Skills Builder", "Voice UX Certified"],
+    "idiomas": ["Português", "Inglês", "Italiano"],
+    "areaInteresses": ["Multimodal Interfaces", "Voice Biometrics", "Ambient Computing"]
+  },
+  {
+    "id": 38,
+    "nome": "Pedro Cavalcanti",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Pedro",
+    "cargo": "Especialista em Tokenomics",
+    "resumo": "Desenha sistemas econômicos para tokens e incentivos em plataformas Web3.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Crypto Economics",
+    "habilidadesTecnicas": ["Game Theory", "Token Design", "DeFi", "Economic Modeling", "Smart Contracts", "Mechanism Design"],
+    "softSkills": ["Pensamento econômico", "Análise", "Estratégia", "Comunicação"],
+    "experiencias": [
+      "Tokenomics Lead - Uniswap Labs (2022-2024)",
+      "Crypto Economist - Aave (2020-2022)"
+    ],
+    "formacao": "PhD em Economia - FGV",
+    "projetos": [
+      { "nome": "DeFi Protocol Design", "link": "https://example.com" },
+      { "nome": "Token Incentive System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Certified Blockchain Economist", "DeFi Expert"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["DeFi 2.0", "ReFi", "DAO Economics"]
+  },
+  {
+    "id": 39,
+    "nome": "Raquel Monteiro",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Raquel",
+    "cargo": "Engenheira de Processamento de Linguagem Natural",
+    "resumo": "Desenvolve modelos de NLP para tradução automática e análise de sentimento.",
+    "localizacao": "Campinas, SP",
+    "area": "Natural Language Processing",
+    "habilidadesTecnicas": ["Transformers", "BERT", "GPT", "Hugging Face", "PyTorch", "Linguistics"],
+    "softSkills": ["Linguística", "Pesquisa", "Problem solving", "Colaboração"],
+    "experiencias": [
+      "NLP Engineer - DeepL (2022-2024)",
+      "ML Researcher - Meta AI (2020-2022)"
+    ],
+    "formacao": "PhD em Linguística Computacional - UNICAMP",
+    "projetos": [
+      { "nome": "Neural Machine Translation", "link": "https://example.com" },
+      { "nome": "Multilingual NLP Model", "link": "https://example.com" }
+    ],
+    "certificacoes": ["NLP Specialist", "Hugging Face Certified"],
+    "idiomas": ["Português", "Inglês", "Francês", "Mandarim"],
+    "areaInteresses": ["Low-Resource Languages", "Multimodal NLP", "Ethics in NLP"]
+  },
+  {
+    "id": 40,
+    "nome": "Samuel Pinto",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Samuel",
+    "cargo": "Especialista em Computação de Borda",
+    "resumo": "Desenvolve infraestrutura de edge computing para processamento distribuído em tempo real.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Edge Computing",
+    "habilidadesTecnicas": ["Edge Infrastructure", "5G", "Distributed Systems", "Kubernetes Edge", "IoT Gateways", "Real-time Processing"],
+    "softSkills": ["Arquitetura de sistemas", "Performance", "Escalabilidade", "Inovação"],
+    "experiencias": [
+      "Edge Computing Architect - Cloudflare (2021-2024)",
+      "Edge Platform Engineer - AWS (2019-2021)"
+    ],
+    "formacao": "Mestrado em Redes de Computadores - UFSC",
+    "projetos": [
+      { "nome": "Global Edge Network", "link": "https://example.com" },
+      { "nome": "5G Edge Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Edge Computing Certified", "5G Network Specialist"],
+    "idiomas": ["Português", "Inglês"],
+    "areaInteresses": ["CDN", "Serverless Edge", "Network Optimization"]
+  },
+  {
+    "id": 41,
+    "nome": "Tatiana Vasconcelos",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tatiana",
+    "cargo": "Designer de Experiências Acessíveis",
+    "resumo": "Cria produtos digitais inclusivos seguindo WCAG e design universal.",
+    "localizacao": "Recife, PE",
+    "area": "Accessibility Design",
+    "habilidadesTecnicas": ["WCAG", "ARIA", "Screen Readers", "Accessible Design", "Assistive Technology", "Inclusive Design"],
+    "softSkills": ["Empatia", "Advocacy", "User research", "Educação"],
+    "experiencias": [
+      "Accessibility Lead - Microsoft (2022-2024)",
+      "Inclusive Designer - Google (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design Inclusivo - UFPE",
+    "projetos": [
+      { "nome": "Accessible Component Library", "link": "https://example.com" },
+      { "nome": "Assistive Tech Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["CPACC", "WAS Certified"],
+    "idiomas": ["Português", "Inglês", "Libras"],
+    "areaInteresses": ["Assistive Technology", "Neurodiversity", "Universal Design"]
+  },
+  {
+    "id": 42,
+    "nome": "Ulisses Marques",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ulisses",
+    "cargo": "Engenheiro de Sistemas Espaciais",
+    "resumo": "Desenvolve software para satélites e sistemas de comunicação orbital.",
+    "localizacao": "São José dos Campos, SP",
+    "area": "Space Technology",
+    "habilidadesTecnicas": ["Satellite Systems", "Orbital Mechanics", "C++", "Embedded Systems", "Mission Control", "Space Communications"],
+    "softSkills": ["Precisão", "Problem solving", "Trabalho sob pressão", "Documentação"],
+    "experiencias": [
+      "Satellite Software Engineer - SpaceX (2021-2024)",
+      "Aerospace Engineer - INPE (2019-2021)"
+    ],
+    "formacao": "Mestrado em Engenharia Aeroespacial - ITA",
+    "projetos": [
+      { "nome": "Satellite Communication System", "link": "https://example.com" },
+      { "nome": "Ground Station Software", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Space Systems Certified", "Mission Operations"],
+    "idiomas": ["Português", "Inglês", "Russo"],
+    "areaInteresses": ["NewSpace", "Satellite Constellations", "Lunar Missions"]
+  },
+  {
+    "id": 43,
+    "nome": "Vitória Campos",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vitoria",
+    "cargo": "Especialista em Realidade Mista",
+    "resumo": "Desenvolve aplicações de realidade mista que combinam AR e VR em um continuum.",
+    "localizacao": "São Paulo, SP",
+    "area": "Mixed Reality",
+    "habilidadesTecnicas": ["HoloLens", "Meta Quest", "MRTK", "Unity", "Spatial Computing", "Hand Tracking"],
+    "softSkills": ["Visão espacial", "Criatividade", "UX design", "Inovação"],
+    "experiencias": [
+      "MR Developer - Microsoft Mixed Reality (2022-2024)",
+      "XR Designer - Magic Leap (2020-2022)"
+    ],
+    "formacao": "Mestrado em Computação Gráfica - IMPA",
+    "projetos": [
+      { "nome": "Industrial MR Training", "link": "https://example.com" },
+      { "nome": "Collaborative MR Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Unity XR Certified", "HoloLens Developer"],
+    "idiomas": ["Português", "Inglês", "Japonês"],
+    "areaInteresses": ["Spatial Computing", "Digital Twins", "Remote Collaboration"]
+  },
+  {
+    "id": 44,
+    "nome": "Wagner Oliveira",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Wagner",
+    "cargo": "Engenheiro de Aprendizado Federado",
+    "resumo": "Desenvolve sistemas de ML distribuído que preservam privacidade dos dados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Federated Learning",
+    "habilidadesTecnicas": ["Federated Learning", "Privacy-Preserving ML", "Distributed Systems", "TensorFlow Federated", "Differential Privacy", "Secure Aggregation"],
+    "softSkills": ["Privacidade", "Arquitetura distribuída", "Pesquisa", "Colaboração"],
+    "experiencias": [
+      "Federated Learning Engineer - Apple (2021-2024)",
+      "Privacy ML Researcher - Google Research (2019-2021)"
+    ],
+    "formacao": "PhD em Machine Learning - UFMG",
+    "projetos": [
+      { "nome": "Privacy-Preserving ML Platform", "link": "https://example.com" },
+      { "nome": "Federated Analytics System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Privacy Engineering Certified", "Federated Learning Expert"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Secure ML", "Homomorphic Encryption", "Privacy Tech"]
+  },
+  {
+    "id": 45,
+    "nome": "Xuxa Martins",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Xuxa",
+    "cargo": "Designer de Interfaces Generativas",
+    "resumo": "Usa IA generativa para criar designs adaptativos e personalizados em tempo real.",
+    "localizacao": "São Paulo, SP",
+    "area": "Generative Design",
+    "habilidadesTecnicas": ["Generative AI", "Stable Diffusion", "Midjourney", "Design Automation", "Figma API", "Creative Coding"],
+    "softSkills": ["Criatividade", "Experimentação", "Inovação", "Visão artística"],
+    "experiencias": [
+      "Generative Design Lead - Adobe (2022-2024)",
+      "Creative Technologist - IDEO (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design Computacional - MIT Media Lab",
+    "projetos": [
+      { "nome": "AI Design Assistant", "link": "https://example.com" },
+      { "nome": "Generative UI System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Adobe Certified", "Figma Expert"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["AI-Assisted Design", "Procedural Generation", "Creative AI"]
+  },
+  {
+    "id": 46,
+    "nome": "Yuri Nascimento",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yuri",
+    "cargo": "Especialista em Computação Fotônica",
+    "resumo": "Desenvolve sistemas de processamento óptico para comunicações de alta velocidade.",
+    "localizacao": "Campinas, SP",
+    "area": "Photonic Computing",
+    "habilidadesTecnicas": ["Photonics", "Optical Computing", "Silicon Photonics", "Optical Networks", "Fiber Optics", "Quantum Optics"],
+    "softSkills": ["Física aplicada", "Inovação", "Pesquisa", "Pensamento interdisciplinar"],
+    "experiencias": [
+      "Photonics Engineer - Intel Labs (2021-2024)",
+      "Optical Systems - Bell Labs (2019-2021)"
+    ],
+    "formacao": "PhD em Fotônica - UNICAMP",
+    "projetos": [
+      { "nome": "Optical AI Accelerator", "link": "https://example.com" },
+      { "nome": "Photonic Interconnects", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Photonics Certified", "Optical Engineering"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Optical AI", "Quantum Photonics", "Integrated Photonics"]
+  },
+  {
+    "id": 47,
+    "nome": "Zara Ribeiro",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zara",
+    "cargo": "Engenheira de Proteínas Computacionais",
+    "resumo": "Usa IA para desenhar novas proteínas para aplicações médicas e industriais.",
+    "localizacao": "São Paulo, SP",
+    "area": "Protein Engineering",
+    "habilidadesTecnicas": ["AlphaFold", "Protein Design", "Structural Biology", "PyMOL", "Bioinformatics", "Molecular Dynamics"],
+    "softSkills": ["Biologia molecular", "Computação científica", "Pesquisa", "Colaboração"],
+    "experiencias": [
+      "Computational Biologist - DeepMind (2022-2024)",
+      "Protein Engineer - Ginkgo Bioworks (2020-2022)"
+    ],
+    "formacao": "PhD em Biologia Estrutural - USP",
+    "projetos": [
+      { "nome": "Novel Enzyme Design", "link": "https://example.com" },
+      { "nome": "Protein Therapeutics Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Structural Biology Certified", "Bioinformatics Expert"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Synthetic Biology", "Drug Design", "Protein Therapeutics"]
+  },
+  {
+    "id": 48,
+    "nome": "Alberto Cunha",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alberto",
+    "cargo": "Designer de Experiências Metaversais",
+    "resumo": "Cria mundos virtuais persistentes com economia e governança descentralizada.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Metaverse Design",
+    "habilidadesTecnicas": ["Unreal Engine", "Unity", "Virtual Worlds", "Web3", "3D Modeling", "Spatial Design"],
+    "softSkills": ["Worldbuilding", "Criatividade", "Community management", "Visão"],
+    "experiencias": [
+      "Metaverse Architect - Decentraland (2022-2024)",
+      "World Designer - Second Life (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design de Mundos Virtuais - NYU",
+    "projetos": [
+      { "nome": "Decentralized Virtual City", "link": "https://example.com" },
+      { "nome": "Metaverse Governance System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Unreal Engine Certified", "Web3 Designer"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Virtual Real Estate", "Metaverse Economics", "Social VR"]
+  },
+  {
+    "id": 49,
+    "nome": "Brenda Torres",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Brenda",
+    "cargo": "Especialista em Computação Afetiva",
+    "resumo": "Desenvolve sistemas que reconhecem e respondem a emoções humanas.",
+    "localizacao": "São Paulo, SP",
+    "area": "Affective Computing",
+    "habilidadesTecnicas": ["Emotion Recognition", "Facial Analysis", "Sentiment Analysis", "Physiological Sensors", "ML", "HCI"],
+    "softSkills": ["Psicologia", "Empatia", "Ética", "User research"],
+    "experiencias": [
+      "Affective Computing Researcher - Affectiva (2022-2024)",
+      "Emotion AI Engineer - Realeyes (2020-2022)"
+    ],
+    "formacao": "PhD em Computação Afetiva - MIT Media Lab",
+    "projetos": [
+      { "nome": "Emotion-Aware AI Assistant", "link": "https://example.com" },
+      { "nome": "Mental Wellness Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Affective Computing Certified", "Psychology of HCI"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Emotional AI", "Mental Health Tech", "Empathic Design"]
+  },
+  {
+    "id": 50,
+    "nome": "César Rodrigues",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Cesar",
+    "cargo": "Engenheiro de Sistemas de Captura de Carbono",
+    "resumo": "Desenvolve tecnologias para captura direta de CO2 da atmosfera usando IA.",
+    "localizacao": "Brasília, DF",
+    "area": "Climate Tech",
+    "habilidadesTecnicas": ["Carbon Capture", "Process Optimization", "Chemical Engineering", "IoT Sensors", "ML", "Climate Modeling"],
+    "softSkills": ["Sustentabilidade", "Inovação", "Pensamento sistêmico", "Impact"],
+    "experiencias": [
+      "Climate Tech Engineer - Climeworks (2021-2024)",
+      "Carbon Tech - Carbon Engineering (2019-2021)"
+    ],
+    "formacao": "PhD em Engenharia Química - UNICAMP",
+    "projetos": [
+      { "nome": "Direct Air Capture System", "link": "https://example.com" },
+      { "nome": "Carbon Mineralization Tech", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Climate Tech Certified", "Process Engineering"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Net Zero", "Climate Solutions", "Circular Carbon"]
+  },
+  {
+    "id": 51,
+    "nome": "Denise Almeida",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Denise",
+    "cargo": "Designer de Experiências Sonoras",
+    "resumo": "Cria identidades sonoras e branding de áudio para marcas e produtos.",
+    "localizacao": "São Paulo, SP",
+    "area": "Audio Branding",
+    "habilidadesTecnicas": ["Sound Design", "Audio Branding", "Music Production", "Psychoacoustics", "Ableton Live", "Spatial Audio"],
+    "softSkills": ["Criatividade", "Branding", "Storytelling", "Percepção auditiva"],
+    "experiencias": [
+      "Audio Brand Strategist - Mastercard Sonic (2022-2024)",
+      "Sound Designer - Dolby (2020-2022)"
+    ],
+    "formacao": "Mestrado em Sound Design - Berklee",
+    "projetos": [
+      { "nome": "Brand Audio Identity", "link": "https://example.com" },
+      { "nome": "Product Sound System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Audio Branding Certified", "Sound Design Expert"],
+    "idiomas": ["Português", "Inglês", "Italiano"],
+    "areaInteresses": ["Sonic Branding", "Audio UX", "Acoustic Design"]
+  },
+  {
+    "id": 52,
+    "nome": "Elias Montenegro",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elias",
+    "cargo": "Especialista em Swarm Robotics",
+    "resumo": "Desenvolve sistemas de robôs cooperativos inspirados em comportamento de enxames.",
+    "localizacao": "Campinas, SP",
+    "area": "Swarm Intelligence",
+    "habilidadesTecnicas": ["Swarm Algorithms", "Multi-Agent Systems", "ROS", "Distributed Control", "Collective Intelligence", "Simulation"],
+    "softSkills": ["Pensamento sistêmico", "Biomimética", "Pesquisa", "Inovação"],
+    "experiencias": [
+      "Swarm Robotics Researcher - Harvard Microrobotics (2021-2024)",
+      "Multi-Agent Systems - MIT CSAIL (2019-2021)"
+    ],
+    "formacao": "PhD em Robótica - UNICAMP",
+    "projetos": [
+      { "nome": "Swarm Drone System", "link": "https://example.com" },
+      { "nome": "Collective Robotic Behavior", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Swarm Intelligence Certified", "Multi-Robot Systems"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Collective AI", "Distributed Robotics", "Bio-inspired Systems"]
+  },
+  {
+    "id": 53,
+    "nome": "Fabiana Duarte",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fabiana",
+    "cargo": "Engenheira de Carne Cultivada",
+    "resumo": "Desenvolve processos de biofabricação para produção de carne sem animais.",
+    "localizacao": "São Paulo, SP",
+    "area": "Cellular Agriculture",
+    "habilidadesTecnicas": ["Cell Culture", "Tissue Engineering", "Bioreactors", "Bioprocess Engineering", "Food Science", "Synthetic Biology"],
+    "softSkills": ["Biotecnologia", "Sustentabilidade", "Inovação", "Pesquisa"],
+    "experiencias": [
+      "Cellular Agriculture Engineer - Upside Foods (2022-2024)",
+      "Bioprocess Engineer - Memphis Meats (2020-2022)"
+    ],
+    "formacao": "PhD em Biotecnologia - UNICAMP",
+    "projetos": [
+      { "nome": "Cultured Meat Production", "link": "https://example.com" },
+      { "nome": "Bioreactor Optimization", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Bioprocess Engineering Certified", "Food Tech Expert"],
+    "idiomas": ["Português", "Inglês", "Holandês"],
+    "areaInteresses": ["Alt Protein", "Food Sustainability", "Precision Fermentation"]
+  },
+  {
+    "id": 54,
+    "nome": "Gilberto Farias",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gilberto",
+    "cargo": "Designer de Interfaces Cerebrais",
+    "resumo": "Cria UX/UI para interfaces cérebro-computador não invasivas.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Brain-Computer Interface Design",
+    "habilidadesTecnicas": ["BCI Design", "EEG Interface", "Neural UX", "Signal Processing", "Neurofeedback", "Cognitive Design"],
+    "softSkills": ["Neurociência", "UX design", "Empatia", "Inovação"],
+    "experiencias": [
+      "BCI Designer - Neurable (2022-2024)",
+      "Neural Interface UX - CTRL-Labs (Meta) (2020-2022)"
+    ],
+    "formacao": "Mestrado em Neurociência & Design - IED",
+    "projetos": [
+      { "nome": "Mind-Controlled Interface", "link": "https://example.com" },
+      { "nome": "Neural Gaming Platform", "link": "https://example.com" }
+    ],
+    "certificacoes": ["BCI Design Certified", "Neurotech UX"],
+    "idiomas": ["Português", "Inglês", "Espanhol"],
+    "areaInteresses": ["Neural Interfaces", "Thought Control", "Cognitive UX"]
+  },
+  {
+    "id": 55,
+    "nome": "Helena Xavier",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=HelenaX",
+    "cargo": "Especialista em Gêmeos Digitais",
+    "resumo": "Cria réplicas virtuais de sistemas físicos para simulação e otimização.",
+    "localizacao": "Curitiba, PR",
+    "area": "Digital Twins",
+    "habilidadesTecnicas": ["Digital Twin", "IoT", "Simulation", "3D Modeling", "Real-time Analytics", "Predictive Maintenance"],
+    "softSkills": ["Modelagem de sistemas", "Análise", "Visualização", "Inovação"],
+    "experiencias": [
+      "Digital Twin Architect - Siemens Digital Industries (2021-2024)",
+      "Simulation Engineer - ANSYS (2019-2021)"
+    ],
+    "formacao": "Mestrado em Sistemas Ciber-Físicos - UFPR",
+    "projetos": [
+      { "nome": "Factory Digital Twin", "link": "https://example.com" },
+      { "nome": "City-Scale Digital Twin", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Digital Twin Certified", "IoT Platform Expert"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["Industry 4.0", "Smart Cities", "Predictive Systems"]
+  },
+  {
+    "id": 56,
+    "nome": "Ivan Cardoso",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ivan",
+    "cargo": "Engenheiro de Hidrogênio Verde",
+    "resumo": "Desenvolve sistemas de produção e armazenamento de hidrogênio renovável.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Green Hydrogen",
+    "habilidadesTecnicas": ["Electrolysis", "Hydrogen Storage", "Fuel Cells", "Renewable Energy", "Chemical Engineering", "Process Design"],
+    "softSkills": ["Energia limpa", "Inovação", "Otimização", "Sustentabilidade"],
+    "experiencias": [
+      "Hydrogen Systems Engineer - Nel Hydrogen (2021-2024)",
+      "Clean Energy Engineer - Siemens Energy (2019-2021)"
+    ],
+    "formacao": "Mestrado em Engenharia Química - UFC",
+    "projetos": [
+      { "nome": "Green Hydrogen Plant", "link": "https://example.com" },
+      { "nome": "H2 Storage System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Hydrogen Engineering Certified", "Fuel Cell Expert"],
+    "idiomas": ["Português", "Inglês", "Norueguês"],
+    "areaInteresses": ["Energy Transition", "Power-to-X", "Hydrogen Economy"]
+  },
+  {
+    "id": 57,
+    "nome": "Júlia Tavares",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=JuliaT",
+    "cargo": "Designer de Experiências Olfativas",
+    "resumo": "Cria experiências multissensoriais com foco em aromas digitalmente controlados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Olfactory Design",
+    "habilidadesTecnicas": ["Scent Design", "Olfactory Branding", "Sensory Marketing", "Chemistry", "IoT Devices", "Experience Design"],
+    "softSkills": ["Criatividade sensorial", "Branding", "Inovação", "Química"],
+    "experiencias": [
+      "Olfactory Designer - Olorama Technology (2022-2024)",
+      "Scent Brand Strategist - IFF (2020-2022)"
+    ],
+    "formacao": "Mestrado em Design Multissensorial - Parsons",
+    "projetos": [
+      { "nome": "Digital Scent Experience", "link": "https://example.com" },
+      { "nome": "Olfactory VR System", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Sensory Design Certified", "Olfactory Branding"],
+    "idiomas": ["Português", "Inglês", "Francês"],
+    "areaInteresses": ["Multisensory Experiences", "Scent Marketing", "Smell-O-Vision"]
+  },
+  {
+    "id": 58,
+    "nome": "Kevin Barbosa",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kevin",
+    "cargo": "Especialista em Robótica Soft",
+    "resumo": "Desenvolve robôs flexíveis inspirados em organismos biológicos.",
+    "localizacao": "São Paulo, SP",
+    "area": "Soft Robotics",
+    "habilidadesTecnicas": ["Soft Robotics", "Biomimicry", "Flexible Materials", "Actuation Systems", "ROS", "Compliant Mechanisms"],
+    "softSkills": ["Biomimética", "Inovação", "Material science", "Pesquisa"],
+    "experiencias": [
+      "Soft Robotics Engineer - Soft Robotics Inc (2021-2024)",
+      "Biomimetic Robotics - Harvard Biodesign Lab (2019-2021)"
+    ],
+    "formacao": "PhD em Robótica - UNICAMP",
+    "projetos": [
+      { "nome": "Soft Gripper System", "link": "https://example.com" },
+      { "nome": "Bio-inspired Robot", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Soft Robotics Certified", "Biomimicry Expert"],
+    "idiomas": ["Português", "Inglês", "Japonês"],
+    "areaInteresses": ["Bio-inspired Design", "Medical Robotics", "Human-Robot Interaction"]
+  },
+  {
+    "id": 59,
+    "nome": "Laura Mendonça",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=LauraM",
+    "cargo": "Engenheira de Materiais Programáveis",
+    "resumo": "Desenvolve materiais inteligentes que mudam propriedades sob comando.",
+    "localizacao": "Campinas, SP",
+    "area": "Smart Materials",
+    "habilidadesTecnicas": ["Smart Materials", "4D Printing", "Shape Memory Alloys", "Self-Healing Materials", "Nanomaterials", "Material Science"],
+    "softSkills": ["Inovação material", "Química", "Pesquisa", "Interdisciplinaridade"],
+    "experiencias": [
+      "Smart Materials Engineer - MIT Self-Assembly Lab (2021-2024)",
+      "Materials Scientist - 3M Innovation (2019-2021)"
+    ],
+    "formacao": "PhD em Ciência de Materiais - UNICAMP",
+    "projetos": [
+      { "nome": "Programmable Matter System", "link": "https://example.com" },
+      { "nome": "Self-Healing Coating", "link": "https://example.com" }
+    ],
+    "certificacoes": ["Materials Engineering Certified", "4D Printing Expert"],
+    "idiomas": ["Português", "Inglês", "Alemão"],
+    "areaInteresses": ["4D Printing", "Adaptive Materials", "Metamaterials"]
+  },
+  {
+    "id": 60,
+    "nome": "Márcio Silva",
+    "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcioS",
+    "cargo": "Especialista em Computação DNA",
+    "resumo": "Usa moléculas de DNA para realizar cálculos e armazenamento de dados.",
+    "localizacao": "São Paulo, SP",
+    "area": "DNA Computing",
+    "habilidadesTecnicas": ["DNA Computing", "Molecular Programming", "Synthetic Biology", "Bioinformatics", "Genetic Algorithms", "Biocomputation"],
+    "softSkills": ["Biologia molecular", "Computação", "Pesquisa", "Visão futurista"],
+    "experiencias": [
+      "DNA Computing Researcher - Microsoft Research (2022-2024)",
+      "Molecular Programmer - Twist Bioscience (2020-2022)"
+    ],
+    "formacao": "PhD em Biologia Computacional - USP",
+    "projetos": [
+      { "nome": "DNA Data Storage System", "link": "https://example.com" },
+      { "nome": "Molecular Computer", "link": "https://example.com" }
+    ],
+    "certificacoes": ["DNA Computing Certified", "Synthetic Biology Expert"],
+    "idiomas": ["Português", "Inglês", "Hebraico"],
+    "areaInteresses": ["Molecular Computing", "DNA Storage", "Biological Circuits"]
+  }
+]
