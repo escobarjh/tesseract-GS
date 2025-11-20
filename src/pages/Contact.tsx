@@ -13,19 +13,38 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [mensagem, setMensagem] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!nome || !email || !mensagem) {
-      toast.error('Preencha todos os campos');
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!nome || !email || !mensagem) {
+    toast.error("Preencha todos os campos");
+    return;
+  }
+
+  try {
+    const res = await fetch("http://localhost:5000/contact/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ nome, email, mensagem })
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      toast.error(data.error || "Erro ao enviar contato");
       return;
     }
 
-    toast.success('Mensagem enviada com sucesso!');
-    setNome('');
-    setEmail('');
-    setMensagem('');
-  };
+    toast.success("Contato enviado com sucesso!");
+    setNome("");
+    setEmail("");
+    setMensagem("");
+
+  } catch {
+    toast.error("Erro ao conectar com o servidor");
+  }
+};
+
 
   return (
     <div className="min-h-screen bg-background">

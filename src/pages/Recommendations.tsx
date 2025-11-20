@@ -15,21 +15,46 @@ export default function Recommendations() {
   const [cargo, setCargo] = useState('');
   const [recomendacao, setRecomendacao] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!nomeProfissional || !emailProfissional || !empresa || !cargo || !recomendacao) {
-      toast.error('Preencha todos os campos');
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!nomeProfissional || !emailProfissional || !empresa || !cargo || !recomendacao) {
+    toast.error("Preencha todos os campos");
+    return;
+  }
+
+  try {
+    const res = await fetch("http://localhost:5000/recommend/add", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        nomeProfissional,
+        emailProfissional,
+        empresa,
+        cargo,
+        recomendacao
+      })
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      toast.error(data.error || "Erro ao enviar recomendação");
       return;
     }
 
-    toast.success('Recomendação enviada com sucesso!');
-    setNomeProfissional('');
-    setEmailProfissional('');
-    setEmpresa('');
-    setCargo('');
-    setRecomendacao('');
-  };
+    toast.success("Recomendação enviada com sucesso!");
+
+    setNomeProfissional("");
+    setEmailProfissional("");
+    setEmpresa("");
+    setCargo("");
+    setRecomendacao("");
+
+  } catch (err) {
+    toast.error("Erro ao conectar ao servidor");
+  }
+};
 
   return (
     <div className="min-h-screen bg-background">

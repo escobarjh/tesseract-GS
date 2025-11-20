@@ -13,19 +13,38 @@ export default function Messages() {
   const [assunto, setAssunto] = useState('');
   const [mensagem, setMensagem] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!destinatario || !assunto || !mensagem) {
-      toast.error('Preencha todos os campos');
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!destinatario || !assunto || !mensagem) {
+    toast.error("Preencha todos os campos");
+    return;
+  }
+
+  try {
+    const res = await fetch("http://localhost:5000/messages/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ destinatario, assunto, mensagem })
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      toast.error(data.error || "Erro ao enviar mensagem");
       return;
     }
 
-    toast.success('Mensagem enviada com sucesso!');
-    setDestinatario('');
-    setAssunto('');
-    setMensagem('');
-  };
+    toast.success("Mensagem enviada!");
+    setDestinatario("");
+    setAssunto("");
+    setMensagem("");
+
+  } catch (err) {
+    toast.error("Erro ao conectar com o servidor");
+  }
+};
+
 
   return (
     <div className="min-h-screen bg-background">
