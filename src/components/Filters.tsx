@@ -8,7 +8,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-
 interface FiltersProps {
   searchTerm: string;
   onSearchChange: (value: string) => void;
