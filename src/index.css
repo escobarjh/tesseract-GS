@@ -35,14 +35,12 @@
 
     --radius: 0.75rem;
 
-    /* TESSERACT Custom Colors */
     --tesseract-black: 0 0% 0%;
     --tesseract-gray: 0 0% 6%;
     --tesseract-neon-blue: 189 100% 50%;
     --tesseract-purple: 275 100% 58%;
     --tesseract-white: 0 0% 100%;
     
-    /* Glassmorphism */
     --glass-bg: 0 0% 100% / 0.05;
     --glass-border: 0 0% 100% / 0.1;
   }
@@ -76,7 +74,6 @@
     --input: 0 0% 15%;
     --ring: 275 100% 58%;
     
-    /* Glassmorphism Dark */
     --glass-bg: 0 0% 100% / 0.03;
     --glass-border: 0 0% 100% / 0.08;
   }
