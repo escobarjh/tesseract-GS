@@ -9,7 +9,6 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Mail, MapPin, Award, Briefcase, GraduationCap, Languages, Target, TrendingUp } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
-
 interface Profissional {
   id: number;
   nome: string;
