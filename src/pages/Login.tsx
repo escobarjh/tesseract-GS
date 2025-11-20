@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -11,23 +10,41 @@ import { toast } from 'sonner';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
-  const { login } = useAuth();
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email || !senha) {
       toast.error('Preencha todos os campos');
       return;
     }
 
-    const success = login(email, senha);
-    if (success) {
-      toast.success('Login realizado com sucesso!');
-      navigate('/home');
-    } else {
-      toast.error('Email ou senha incorretos');
+    try {
+      const res = await fetch("http://localhost:5000/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, senha }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        toast.error(data.error || "Erro ao fazer login");
+        return;
+      }
+
+      localStorage.setItem("token", data.token);
+
+      toast.success("Login realizado com sucesso!");
+
+      setTimeout(() => {
+        navigate("/home");
+  }, 300);
+
+
+    } catch (err) {
+      toast.error("Erro ao conectar ao servidor");
     }
   };
 
@@ -75,7 +92,10 @@ export default function Login() {
 
         <div className="text-center text-sm">
           <span className="text-muted-foreground">Não tem uma conta? </span>
-          <Link to="/register" className="text-secondary hover:text-primary transition-colors font-medium">
+          <Link
+            to="/register"
+            className="text-secondary hover:text-primary transition-colors font-medium"
+          >
             Criar conta
           </Link>
         </div>
